@@ -1,40 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>My DevOps Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<h1>Welcome Ambadas 🚀</h1>
-
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="contact.html">Contact</a>
-<a href="contact.html">Contact</a>
-
-</nav>
-
+    <h1>My Portfolio</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 </header>
 
-<section>
+<section class="hero">
+    <h2>Hello, I'm DevOps Engineer 🚀</h2>
+    <p>Welcome to my personal website</p>
+    <button onclick="showMessage()">Click Me</button>
+</section>
 
-<h2>Home Page</h2>
+<section class="projects">
+    <h2>My Projects</h2>
 
-<p>
-This website is deployed using Git + Shell Automation.
-</p>
+    <div class="card">
+        <h3>CI/CD Pipeline</h3>
+        <p>Automated deployment using Jenkins and Nginx</p>
+    </div>
 
-<button onclick="showTime()">
-Show Current Time
-</button>
+    <div class="card">
+        <h3>Linux Monitoring</h3>
+        <p>Server monitoring using shell scripting</p>
+    </div>
 
-<p id="time"></p>
+    <div class="card">
+        <h3>Web Deployment</h3>
+        <p>Deploy static website using Jenkins</p>
+    </div>
 
 </section>
+
+<footer>
+    <p>© 2026 My Portfolio</p>
+</footer>
 
 <script src="script.js"></script>
 
